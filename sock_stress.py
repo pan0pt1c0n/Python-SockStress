@@ -8,14 +8,14 @@
 # Tested on: Kali Linux x64
 # CVE : CVE-2008-4609
 
+import logging
+logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 from scapy.all import *
 from time import sleep
 import thread
-import logging
 import os
 import signal
 import sys
-logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 
 print "\n*******************************************************"
 print "**  Python Sock Stress DoS                           **"
