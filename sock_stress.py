@@ -4,7 +4,7 @@
 # Date: July 4, 2014
 # Exploit Author: Justin Hutchens 
 # LinkedIn: www.linkedin.com/in/justinhutchens
-# Twitter: @hackithutch
+# Twitter: @pan0pt1c0n
 # Tested on: Kali Linux x64
 # CVE : CVE-2008-4609
 
@@ -19,7 +19,7 @@ import sys
 
 print "\n*******************************************************"
 print "**  Python Sock Stress DoS                           **"
-print "**  by H@ck1tHu7ch (Justin Hutchens)                 **"
+print "**  by Pan0pt1c0n (Justin Hutchens)                 **"
 print "**  BREAK ALL THE SERVERS!!!                         **"
 print "*******************************************************\n\n"
 
