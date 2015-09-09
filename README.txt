@@ -1,5 +1,5 @@
 Proof of Concept on my blog at:
-http://www.shortbus.ninja/sockstress-denial-of-service-with-python-2/
+http://www.pan0pt1c0n.net/sockstress-denial-of-service-with-python-2/
 
 		***Basic Usage***
 Usage - ./sock_stress.py [Target-IP] [Port Number] [Threads]
